@@ -47,17 +47,7 @@ export const IndividualProject = ({ project }) => {
               >
                 Delete
               </button>
-              <span
-                onClick={() => setShowConfirm(!showConfirm)}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') setShowConfirm(!showConfirm);
-                }}
-                tabIndex={0}
-                role="button"
-                aria-label="Cancel adding project, do not delete"
-              >
-                Cancel
-              </span>
+
             </div>
           </div>
         )}
